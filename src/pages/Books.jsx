@@ -52,7 +52,7 @@ export function BooksPage() {
         </div>
 
         {/* Grid Content */}
-        {books.length === 0 ? (
+        {!books ? (
           <div className="text-center py-20 text-orange-500 text-lg">
             No books found. Start by adding some!
           </div>
